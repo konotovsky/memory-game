@@ -1,0 +1,43 @@
+import {
+  Volleyball,
+  Anchor,
+  FlaskConical,
+  Sun,
+  Hand,
+  Bug,
+  Moon,
+  Snowflake,
+  Ambulance,
+  Carrot,
+  ChessQueen,
+  Compass,
+  Disc3,
+  Gem,
+  Gamepad2,
+  Wheat,
+  Apple,
+  Bell,
+} from "lucide-react";
+
+const iconsMap = {
+  1: <Volleyball size={36} />,
+  2: <Anchor size={36} />,
+  3: <FlaskConical size={36} />,
+  4: <Sun size={36} />,
+  5: <Hand size={36} />,
+  6: <Bug size={36} />,
+  7: <Moon size={36} />,
+  8: <Snowflake size={36} />,
+  9: <Ambulance size={36} />,
+  10: <Carrot size={36} />,
+  11: <ChessQueen size={36} />,
+  12: <Compass size={36} />,
+  13: <Disc3 size={36} />,
+  14: <Gem size={36} />,
+  15: <Gamepad2 size={36} />,
+  16: <Wheat size={36} />,
+  17: <Apple size={36} />,
+  18: <Bell size={36} />,
+};
+
+export { iconsMap };

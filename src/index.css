@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-atkinson-hyperlegible: "Atkinson Hyperlegible", sans-serif;
+
+  --color-*: initial;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-grey-100: #f2f2f2;
+  --color-grey-50: #fcfcfc;
+  --color-blue-950: #152938;
+  --color-blue-800: #304859;
+  --color-blue-400: #7191a5;
+  --color-blue-350: #6395b8;
+  --color-blue-300: #bcced9;
+  --color-blue-100: #dfe7ec;
+  --color-orange-400: #fda214;
+  --color-orange-300: #ffb84a;
+
+  --spacing-*: initial;
+  --spacing-0: 0px;
+  --spacing-100: 8px;
+  --spacing-200: 16px;
+  --spacing-300: 24px;
+  --spacing-400: 32px;
+  --spacing-500: 40px;
+  --spacing-600: 48px;
+  --spacing-1000: 80px;
+}
+
+@layer base {
+  body {
+    @apply bg-grey-50 font-atkinson-hyperlegible text-blue-800;
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+}
