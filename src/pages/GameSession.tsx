@@ -47,7 +47,7 @@ function GameSession() {
   const currentPlayer = players[currentPlayerIndex ?? 0];
 
   return (
-    <div className="container mx-auto flex h-screen flex-col gap-1000 p-300 md:p-600">
+    <div className="container mx-auto flex h-dvh flex-col gap-1000 p-300 md:p-600">
       <header>
         <MenuBar />
       </header>
