@@ -52,11 +52,11 @@ function GameSession() {
         <MenuBar />
       </header>
 
-      <main className="flex w-full flex-1 items-center justify-center md:mx-auto md:max-w-[544px]">
+      <main className="mx-auto flex w-full max-w-[544px] flex-1 items-center justify-center">
         <GameGrid size={grid} playersCount={playersCount} />
       </main>
 
-      <footer className="mx-auto flex w-full items-center gap-300 md:max-w-[544px]">
+      <footer className="mx-auto flex w-full max-w-[544px] items-center gap-300">
         {isSinglePlayer ? (
           <>
             <StatCard label="Time" value={formatTime(totalTime)} />

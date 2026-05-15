@@ -15,7 +15,7 @@ function MenuBar() {
   return (
     <>
       <div className="flex items-center justify-between">
-        <Logo className="h-300 w-fit text-blue-950 md:h-500 md:w-[153px]" />
+        <Logo className="h-300 w-fit text-blue-950 md:h-500" />
         <Button
           onClick={() => {
             setIsOpen((isOpen) => !isOpen);

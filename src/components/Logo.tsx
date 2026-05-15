@@ -8,7 +8,7 @@ function Logo({ className, ...props }: SVGProps<SVGSVGElement>) {
       xmlns="http://www.w3.org/2000/svg"
       role="img"
       aria-label="Memory Logo"
-      className={cn("text-grey-50 h-auto w-full object-contain", className)}
+      className={cn("text-grey-50 h-auto w-fit object-contain", className)}
       {...props}
     >
       <path
